@@ -13,7 +13,7 @@ inquirer
   ])
   .then((choices) => {
        if(choices.Selection =='About'){
-              console.log(`Hii my name is mukesh dani , I am from uttarakhand , currently i'm pursuing Btech`)
+              console.log(`Hii my name is waris amir , I am from uttar pradesh , currently i'm pursuing Btech`)
               displayNext()
        }
 
@@ -23,12 +23,12 @@ inquirer
        }
 
        else if(choices.Selection=='Projects'){
-            cp.execSync('start chrome https://github.com/mukeshdani')
+            cp.execSync('start chrome https://github.com/warisamir')
             displayNext()
        }
 
        else if(choices.Selection=='Academics'){
-              cp.execSync('start chrome https://github.com/mukeshdani')
+              cp.execSync('start chrome https://github.com/warisamir')
               displayNext()
        }
   })
